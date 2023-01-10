@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:hsl(204, 43%, 93%);
+    height: 100vh;
+}
+.card{
+ max-width: 500px;
+ width: 260px;
+ margin: auto;
+ margin-top:6rem ;
+ font-family: 'Karla', sans-serif;
+ border-radius: 3.5px;
+ overflow: hidden;
+ font-size: 16px;
+}
+.join{
+    background-color: #fff;
+}
+.join h1{
+    color:hsl(179, 72%, 54%);
+    font-weight: 700;
+    font-size: 22px;
+    padding: 1rem 1.2rem 0.5rem 1.2rem;
+}
+.join h2{
+    padding: 0.5rem 1.2rem;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+}
+.join p{
+    padding: 0.5rem 1.2rem;
+    font-size: 13px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+}
+.monthly{
+    background-color:hsl(179, 62%, 43%);
+}
+.monthly h2{
+    padding:1rem 1.2rem 0.5rem 1.2rem;
+    color:hsl(204, 43%, 93%);
+    font-size: 18px;
+}
+.monthly .per{
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+}
+span{
+    font-weight: 700;
+    padding: 1rem ;
+    font-size: 30px;
+    color: hsl(204,43%,90%);
+}
+.monthly p{
+    font-size: 14px;
+    padding: 0 1.2rem;
+    color:hsl(204,43%,90%) ;
+}
+button{
+    width: 80%;
+    margin:1.3rem;
+    padding:0.7rem;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 0.3rem;
+    border: none;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.why{
+    background-color: hsl(179, 55%, 53%);
+    overflow: hidden;
+    border-radius: 0 0 3.7px 3.7px;
+}
+.why h2{
+    padding:1rem 1.2rem 0.5rem 1.2rem;
+    color:hsl(202, 43%, 93%);
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+    padding: 0.4rem 1.2rem;
+    color:hsl(202, 19%, 88%) ;
+    line-height: 1.2rem;
+    padding-bottom: 1rem;
+}
+@media screen and (min-width:600px){
+    
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+        margin-top: 10rem;
+    }
+    .join{
+        padding-bottom: 1rem;
+        grid-area: 1/1/2/3;
+    }
+    .why{
+        border-radius: 0 0 3.7px 0;
+    }
+    
+}
